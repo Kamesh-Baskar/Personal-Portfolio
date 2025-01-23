@@ -1,0 +1,189 @@
+<!-- My Portfolio Website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="home" id="home">
+        <header>
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="navlist">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#technology">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><button id="dark-mode-toggle"><i class='bx bx-moon'></i></button></li>
+            </ul>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </header>
+        <div class="home-container">
+            <div class="home-text">
+                <div class="slide">
+                    <span class="one">Hello</span>
+                    <span class="two">I'm</span>
+                </div>
+                <h1>Kamesh Baskar</h1>
+                <h3></h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./img/img2.jpeg" alt="About Me">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p><b>I'm a passionate and creative Frontend Developer. I specialize in crafting responsive, user-friendly websites and web applications with a solid foundation in HTML, CSS, and JavaScript.</b></p>
+			<p><b>I have a solid understanding of web design principles and version control systems like Git and GitHub, ensuring seamless collaboration and efficient project management. </p><b></b>
+            <p><b>Currently, I’m expanding my expertise by learning backend development to become a versatile full-stack developer. capable of handling both frontend and backend challenges.</b></p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+		<div class="main-text">
+			<h2><span>EDUCATION</span></h2>
+		</div>
+
+		<div class="education-content">
+			<div class="box">
+                <ul>
+                    <li> <span>2022 - 2024  </span>
+					<li>Dr. M.G.R. Educational And Research Institute <br>Master of computer Applications <br> Grade : 7.64 CGPA</li>
+                    <li> <span>2018 - 2021  </span></li>
+                    <li>Dr. M.G.R. Educational And Research Institute <br> Bachelor's in computer science <br> Grade : 6.56 CGPA</li>
+                </ul>
+            </div>
+		</div>
+	</section>
+
+    <!-- Skills Section -->
+    <section class="technology" id="technology">
+        <div class="skills">
+            <h2><span>Skills</span></h2>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <ul>
+                    <li>HTML <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div></li>
+                    <li>CSS <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div></li>
+                    <li>JavaScript <div class="progress"><div class="progress-bar" style="width: 70%;"></div></div></li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Python <div class="progress"><div class="progress-bar" style="width: 65%;"></div></div></li>
+                    <li>Bootstrap <div class="progress"><div class="progress-bar" style="width: 65%;"></div></div></li>
+                    <li>Git & GitHub <div class="progress"><div class="progress-bar" style="width: 75%;"></div></div></li>
+                </ul>
+            </div>
+			<div class="column">
+				<ul>
+				  <li>Web Design
+					<div class="progress"><div class="progress-bar" style="width: 75%;" aria-label="Web Design 75%"></div></div>
+				  </li>
+				  <li>MYSQL
+					<div class="progress"><div class="progress-bar" style="width: 80%;" aria-label="MYSQL 80%"></div></div>
+				  
+				</ul>
+			  </div>
+			</div>
+		  </section>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+		<div class="projects-heading">
+		  <h2><span>Projects</span></h2>
+		</div>
+		<div class="projects-content">
+		  <!-- Project 1 -->
+		  <div class="project-box">
+			<img src="./img/portfolioproject.png" alt="Project 1" class="project-image">
+			<div class="project-links">
+			  <a href="#home" target="_blank" class="project-button">Live Link</a>
+			  <a href="https://github.com/yourusername/project1" target="_blank" class="project-button">Source Code</a>
+			</div>
+		  </div>
+		  <!-- Project 2 -->
+		  <div class="project-box">
+			<img src="./img/Project dice.png" alt="Project 2" class="project-image">
+			<div class="project-links">
+				<a href="https://kamesh-baskar.github.io/Dice-Game/" target="_blank" class="project-button">Live Link</a>
+			  <a href="https://github.com/Kamesh-Baskar/Dice-Game" target="_blank" class="project-button">Source Code</a>
+			</div>
+		  </div>
+		  <!-- Project 3 -->
+		  <div class="project-box">
+			<img src="./img/Food Order.png" alt="Project 3" class="project-image">
+			<div class="project-links">
+			  <a href="https://github.com/Kamesh-Baskar/Food-Order-Website" target="_blank" class="project-button">Source Code</a>
+			  
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  
+	 
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2><br>
+			<div class="list">
+				<li>Mobile: 7397457394</li>
+				<li>Email: kameshbaskar05@gmail.com</a></li>
+				<li>Address: Anna Nagar, Chennai</a></li><br>
+			    <li><a href="https://drive.google.com/file/d/1tLEFoyUVHsiUPOFRI3pk8HN8_OFO_1ox/view?usp=drive_link" target="_blank"><span class="one"><h5>Download Resume</h5></span></a></li>
+			
+			</div>
+	
+
+			<div class="contact-icons">
+				<a href="https://www.linkedin.com/in/kamesh-baskar-b02aaa2a0/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+				<a href="https://github.com/Kamesh-Baskar" target="_blank"><i class='bx bxl-github' ></i></a>
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<form action="">
+				<input type="name" placeholder="Your Name" required>
+				<input type="email" placeholder="Your Email Address" required>
+				<input type="" placeholder="Your Mobile Number" required>
+				<textarea name="" id="" cols="35" rows="10" placeholder="Type your Message" required></textarea>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+		</div>
+	</section>
+	
+
+    <!-- Footer Section -->
+    <section class="end">
+		<div class="last-text">
+			<p></p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
